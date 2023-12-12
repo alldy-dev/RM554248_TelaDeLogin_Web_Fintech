@@ -1,0 +1,65 @@
+:root {
+    --cor0: #ffffff;
+    --cor1: #ABD6FD;
+    --cor2: #0781F8;
+    --cor3: #0780f89a;
+    --cor4: #AFAFAF;
+    --cor5: #afafaf9a;
+    --cor6: #ff0000;
+    --cor7: #fd000093;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+#telaLogin {
+    width: 305px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 20px #0781F8;
+    
+    
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--cor5);
+    opacity: 1; 
+}
+
+a#ancora1 {
+    color: var(--cor2);
+}
+
+a#ancora1:hover {
+    color: var(--cor1);
+}
+
+
+p#paragrafo1 {
+    padding-top:10px;
+    text-align: center;
+    color: #ABD6FD;
+}
+
+p {
+    padding-top: 0px;
+    text-align: center;
+}
+
+a {
+    color: var(--cor6);
+}
+
+a:hover {
+    color: var(--cor7);
+}
