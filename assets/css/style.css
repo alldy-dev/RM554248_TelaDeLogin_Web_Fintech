@@ -36,6 +36,11 @@ h3 {
     opacity: 1; 
 }
 
+
+label {
+    font-weight: bold;
+}
+
 a#ancora1 {
     color: var(--cor2);
 }
@@ -45,15 +50,16 @@ a#ancora1:hover {
 }
 
 
-p#paragrafo1 {
-    padding-top:10px;
+p#paragrafo2 {
     text-align: center;
     color: #ABD6FD;
+    margin: 0px;
 }
 
 p {
-    padding-top: 0px;
     text-align: center;
+    padding-top: 15px;
+    margin: 0px;
 }
 
 a {
